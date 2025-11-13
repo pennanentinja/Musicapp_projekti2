@@ -1,14 +1,13 @@
 # 🎧 Musiikkivirta – Music Info App
 
 Tekijä: Tinja  
-Parityö: [Lisää parin nimi tähän, jos tehty yhdessä]
 
 ## Verkkolinkit:
 Pääset julkaistuun sovellukseen käsiksi osoitteessa [Netlify-linkki tähän]  
-Linkki projektin videoesittelyyn [YouTube-linkki tähän]
+Linkki projektin videoesittelyyn [[YouTube-linkki tähän](https://video.laurea.fi/media/Musicapp+projekti2/0_bmg0b1ep)]
 
 ## Työn jakautuminen
-Tein projektin itsenäisesti / parityönä.  
+Tein projektin itsenäisesti. 
 [Jos parityö:] Sovimme työnjaosta ajoissa ja kommunikoimme sujuvasti. Minä vastasin mm. käyttöliittymän rakenteesta, API-kutsujen toteutuksesta ja tyylien viimeistelystä. Parini keskittyi hakutoimintoon, README.md:n rakenteeseen ja testaukseen.  
 Käytimme yhteistä GitHub-repoa ja jaoimme tehtävät selkeästi. Molemmat osallistuivat suunnitteluun ja virheiden korjaamiseen.
 

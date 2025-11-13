@@ -5,7 +5,7 @@ const API_KEY = '4ecb0c1ee68f2c56929908c49f98b116';
 document.addEventListener('DOMContentLoaded', () => {
   fetchTopArtists();
 
-  // Hakukenttä: dynaaminen tapahtumakäsittelijä
+  // Hakukenttä
   document.getElementById('searchInput').addEventListener('input', (e) => {
     const query = e.target.value.trim();
     if (query.length > 2) {
