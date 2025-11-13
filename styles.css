@@ -1,0 +1,103 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #212231; /* Tumma tausta */
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0; /* Vaalea teksti */
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #201e30;
+  color: #90caf9; /* Sinertävä korostus */
+  margin: 0;
+  font-size: 2em;
+  font-family: 'Montserrat';
+}
+
+#searchInput {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  background-color: #232747;
+  color: #e0e0e0;
+}
+
+#mainContainer {
+  display: flex;
+  height: calc(100vh - 160px);
+  overflow: hidden;
+}
+
+.column {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#artistList {
+  background-color: #171233;
+  border-right: 2px solid #90caf9;
+}
+
+#albumList {
+  background-color: #171233;
+}
+
+.card, .album-card {
+  background: #242424;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  transition: background 0.2s ease;
+}
+
+.card:hover, .album-card:hover {
+  background: #2e2e2e;
+}
+
+.album-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.album-cover {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.album-info {
+  flex: 1;
+}
+
+.album-info h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #90caf9;
+}
+
+.tracklist {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.tracklist strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #90caf9;
+}
+
+.tracklist div {
+  margin-bottom: 4px;
+  color: #e0e0e0;
+}
