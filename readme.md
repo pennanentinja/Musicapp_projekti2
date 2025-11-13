@@ -3,7 +3,7 @@
 Tekijä: Tinja Pennanen
 
 ## Verkkolinkit:
-Pääset julkaistuun sovellukseen käsiksi osoitteessa [Netlify-linkki tähän]  
+Pääset julkaistuun sovellukseen käsiksi osoitteessa _ei toimi oikein_ [Netlify-linkki](https://musicappjavaa.netlify.app/)  
 Linkki projektin videoesittelyyn [[Laurean videopalvelussa](https://video.laurea.fi/media/Musicapp+projekti2/0_bmg0b1ep)]
 
 ## Työn jakautuminen
@@ -11,7 +11,7 @@ Tein projektin itsenäisesti. Joten hoidin projektissa jokaisen osa-alueen itse.
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
 Mielestäni onnistuin ihan hyvin rakentamaan toimivan sekä visuaalisesti hyvin selkeän sovelluksen. Projektissa onnistuin hyödyntämään AJAX-kutsuja sekä käyttämään Last.fm:n live-API:a. Tietenkin parantamisen varaa olisi aina, kuitenkin tässä projektissa ehkä eniten virheenkäsittelyssä. Sovelluksesta jäi uupumaan joitakin asioita, jotka olisi voineet siellä olla. Näitä oli esimerkiksi lisätiedot artisteista sekä suosikkien tallennus.
-Koen kuitenkin oppineeni API:n rakenteen ja tapahtumakäsittelijöiden käytön kiitettävästi.
+Koen kuitenkin oppineeni API:n rakenteen ja tapahtumakäsittelijöiden käytön kiitettävästi. En saanut Netlifyssä sovellustani toimimaan.
 Antaisin itselleni pisteitä seuraavasti: 8/10 p
 
 ## Palaute opettajalle kurssista sekä itse opetuksesta tähän saakka
@@ -35,6 +35,7 @@ Musiikkivirta on sovellus, joka toimii selaimessa. Se hakee Last.fm:n API:n kaut
 - Jos artistin tai albumin nimi sisältää erikoismerkkejä, API ei aina palauta tietoja oikein  
 - Kappalelista ei sulkeudu automaattisesti, jos klikataan toista albumia  
 - Hakutoimintoa käyttäessä, esimerkiksi hakemalla "jsnpkdvnsvsp", se ei palauta esimerkiksi tekstiä "kyseistä artistia ei löytynyt" vaan saattaa näyttää artisteja, joiden albumeiden nimet ovat lähimpänä kyseistä sössöä.
+- Sain sovelluksen julkaistua Netlifyyn, mutta sovellus ei toimi siellä oikein, vaikka toimii VSCodessa normaalisti, kun avaa selaimessa html tiedoston.
 
 ## Kuvakaappaukset
 ![Kuvakaappaus sovelluksesta](kuvat/Musicapp.png) 
