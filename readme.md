@@ -4,7 +4,7 @@ Tekijä: Tinja
 
 ## Verkkolinkit:
 Pääset julkaistuun sovellukseen käsiksi osoitteessa [Netlify-linkki tähän]  
-Linkki projektin videoesittelyyn [[YouTube-linkki tähän](https://video.laurea.fi/media/Musicapp+projekti2/0_bmg0b1ep)]
+Linkki projektin videoesittelyyn [[Laurean videopalvelussa](https://video.laurea.fi/media/Musicapp+projekti2/0_bmg0b1ep)]
 
 ## Työn jakautuminen
 Tein projektin itsenäisesti. 
